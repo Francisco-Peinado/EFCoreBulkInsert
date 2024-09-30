@@ -2,7 +2,8 @@
 
 ##usage
 
-```using (var context = new YourDbContext())
+```C#
+using (var context = new YourDbContext())
 {
     var entities = new List<YourEntity> { /* ... */ };
     int rowsCopied = await context.BulkInsertAsync(entities);
