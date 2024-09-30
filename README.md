@@ -1,6 +1,6 @@
-#EfCore extension
+# EFCore extension
 
-##usage
+## usage
 
 ```C#
 using (var context = new YourDbContext())
